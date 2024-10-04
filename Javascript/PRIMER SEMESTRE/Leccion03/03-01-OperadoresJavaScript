@@ -1,0 +1,36 @@
+// ejercicio dentro de un rango
+let dentroDeRango = 5; //mAqui vamos a ir cambiando el valor
+let valMin = 0,
+  valMax = 10;
+if (dentroDeRango <= valMin && dentroDeRango >= valMax) {
+  console.log("Esta Dentro del rango Establecido.");
+} else {
+  console.log("Esta fuera del rango establecido.");
+}
+
+// operador ternario
+let resultado2 = 3 > 2 ? " verdadero" : "Falso";
+console.log(resultado2);
+let numero = 9;
+resultado2 = numero % 2 == 0 ? "Es un numero Par" : "Es un numero Impar";
+console.log(resultado2);
+
+// Convertir String a number
+let miNumero = "21"; // es una cadena
+console.log(typeof miNumero);
+let edad2 = Number(miNumero); // esta es una funcion
+console.log(typeof edad2);
+// funcion isNaN
+if (isNaN(edad2)) {
+  copnsole.log("esta variable no contiene solo numeros");
+} else {
+  if (edad2 >= 18) {
+    console.log("Puede Votar");
+  } else {
+    console.log("Muy Joven para  votar");
+  }
+  let resultado3 = edad2 <= 18 ? "Puede votar" : "Es muy Joven para votar";
+  console.log(resultado3);
+}
+
+

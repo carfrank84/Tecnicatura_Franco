@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">F P</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/franco.jpeg" alt="">
+            </div>
+            <h1>Franco Poblete</h1>
+            <h2>Desarrollador Fullstack</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/carfrank84/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/home"><i class="fa-brands fa-x"></i></a>
+                <a href="https://github.com/carfrank84"><i class="fa-brands fa-github"></i></a>
+                <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/carlosfrancopoblete?utm_source=qr&igsh=MXR3anltanFlcmpwZw=="><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Franco Poblete.</span> Soy estudiante de la carrera Tecnicatura Universitaria en
+                programacion, en la Universidad Tecnologica Nacional, Facultad Regional San Rafael, de la Provincia de
+                Mendoza , Republica Argentina, me especializo en programacion de lenguajes como , Pythone, Java,
+                Javascript, trabajo en equipo con el metodo Srcrum, especializacion como programador Frontend.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Git Hub</strong>
+                            https://github.com/carfrank84
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            261666101
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            carfrank84@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.GoldenBytes.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            El Challao , Las Heras, Mendoza
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-bicycle"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>CINE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Skills Tecnicos</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Canva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Skills Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Tecnicatura universitaria en Programacion</h4>
+                        <span class="casa">Universidad Tecnologica Nacional Fsacultad Regional San Rafael</span>
+                        <span class="fecha">2024 - a la fecha</span>
+                        <p>En la misma obtuve amplios conocimientos , en Programacion , especializandome en lenguajes de
+                            programacion como Pythone, Java, Javascript, la utilizacion de plataformas como jira, Miro,
+                            Docker, github, entre otros amplios conociemientos en la utilizacion e implementacion de
+                            inteligencia Artificial, desarrollo web, con Html, CSS, , capacitacion en la ciencia de
+                            datos, aprendiendo lenguajes como R.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Udemy - Cursera - Skillshare</span>
+                        <span class="fecha">2021</span>
+                        <p>Soy experto en arte y multimedia, con experiencia en la creación de contenido visual y
+                            digital innovador. Mi trabajo abarca desde diseño gráfico hasta producción de medios
+                            interactivos, utilizando herramientas como Adobe Photoshop, Illustrator, InDesign, Premiere
+                            Pro y After Effects. Fusiono creatividad y tecnología para desarrollar proyectos impactantes
+                            y atractivos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">FREELANCE</span>
+                        <span class="fecha">2021 - a la fecha</span>
+                        <p>Soy un desarrollador front-end freelance con experiencia en la creación de interfaces de
+                            usuario intuitivas y eficientes. He trabajado en diversos proyectos, incluyendo el
+                            desarrollo de sitios web responsivos, aplicaciones web interactivas y optimización de
+                            rendimiento para mejorar la experiencia del usuario. He colaborado con varias empresas en
+                            Argentina, como TechSolutions, Innovatech y CreativeWeb, proporcionando soluciones
+                            personalizadas que cumplen con sus necesidades específicas y mejoran su presencia en línea.
+                            Además, utilizo herramientas de inteligencia artificial para optimizar procesos de
+                            desarrollo y mejorar la funcionalidad de las aplicaciones.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño web</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Audiovisual</h3>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+                </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/carfrank84/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/home"><i class="fa-brands fa-x"></i></a>
+            <a href="https://github.com/carfrank84"><i class="fa-brands fa-github"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/carlosfrancopoblete?utm_source=qr&igsh=MXR3anltanFlcmpwZw=="><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
