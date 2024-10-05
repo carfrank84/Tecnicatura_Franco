@@ -386,6 +386,43 @@ def listarNombres (*nombres) -> object: # normalmente se utiliza: *args
 listarNombres('Lucas', 'Jose', 'Claudia', 'Rosa' , 'Maria')
 listarNombres('Marcos', 'Daniel','Romina', 'Pepe', 'Marcela', 'Carlos')
 
+def listarTerminos(**terminos):#Lo mas utilizado es **kwargs para recibir los argumentos
+    for llave, valor in terminos.items(): # kwargs significa: key word argument
+        print(f'{llave} : {valor}')
+
+listarTerminos()# no recibe nada nada se va a mostrar
+listarTerminos(IDE='Integrated Development Enviroment', pk= 'Primary Key')
+listarTerminos(Nombre='Leonel Messi')
+
+def desplegarNombres(nombres):
+    for nombre in nombres:
+        print(nombre)
+nombres2 =['Tito', 'Pedro', 'Carlos']
+desplegarNombres(nombres2)
+desplegarNombres('Carla')
+# DesplegarNombres(10,11) # no es un objeto iterable
+desplegarNombres((10,11)) # La convertimnos en una tupla, en un solo elemento no olvidar la coma
+desplegarNombres([22,55]) # La convertimos a una Lista
+
+# Funciones recursivas
+def factorial(numero):
+    if numero == 1: # caso base
+        return 1
+    else:
+        return numero * factorial(numero -1) # Caso Recursivo
+# resultado = factorial(5) # Lo hacemos en codigo duro
+# print(f'El factorial del numero 5 es : {resultado}') # Tarea que el usuario ingrese el numero para realizar el factorial
+
+# Pedir al usuario que ingrese un número
+numero_usuario = int(input("Ingresa un número para calcular su factorial: "))
+
+# Llamar a la función y mostrar el resultado
+resultado = factorial(numero_usuario)
+print(f'El factorial del número {numero_usuario} es: {resultado}')
+
+
+
+
 
 
 
