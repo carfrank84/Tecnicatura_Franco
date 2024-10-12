@@ -1,11 +1,15 @@
 <script setup>
-import navBar from './components/navBar.vue';
+import NavBar from './components/navBar.vue';  // Aquí empieza en mayúscula
+import DatosPersonales from './components/datosPersonales.vue';
 
 </script>
 
 <template>
   <header>
-     <navBar/>
+    <!-- Barra de navegacion -->
+    <NavBar/> <!-- Ahora está con la primera letra en mayúscula -->
+    <!-- Componente datos personales -->
+     <datosPersonales/>
   </header>
   <main>
     <section id="educacion"><h2>Educacion - Cursos</h2></section>

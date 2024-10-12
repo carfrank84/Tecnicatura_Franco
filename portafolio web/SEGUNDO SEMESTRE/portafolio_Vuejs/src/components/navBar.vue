@@ -40,7 +40,7 @@ const navegacion= ref([
 }
 a {
     border: 1px solid;
-    border-color: hsla(160, 100%, 37%, 0.2);
+    border-color: hsla(60, 10%, 96%, 0.886);
     border-radius: 5px;
     /*elimina el subrrayado de los enlaces y elementos con "clase green"*/
     text-decoration: none;
@@ -52,7 +52,7 @@ a {
 
 a:hover {
     /* cambia el color del fondo al pasar el mouse sobre un enlace */
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: hsla(53, 100%, 2%, 0.721);
 }
 @media (max-whidth: 768px) {
     .navbar-menu {
