@@ -1,5 +1,6 @@
+
 <script setup>
-import { ref } from 'vue';
+import {ref} from 'vue';
 
 // Definición de los colores de las fechas
 const fechaColor = ref([
