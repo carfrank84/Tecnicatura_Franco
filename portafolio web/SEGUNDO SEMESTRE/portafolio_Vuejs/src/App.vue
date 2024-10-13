@@ -1,6 +1,7 @@
 <script setup>
 import NavBar from './components/navBar.vue';  // Aquí empieza en mayúscula
 import DatosPersonales from './components/datosPersonales.vue';
+import Educacion from './components/Educacion.vue';
 
 </script>
 
@@ -9,14 +10,16 @@ import DatosPersonales from './components/datosPersonales.vue';
     <!-- Barra de navegacion -->
     <NavBar/> <!-- Ahora está con la primera letra en mayúscula -->
     <!-- Componente datos personales -->
-     <datosPersonales/>
+    <DatosPersonales/>
   </header>
   <main>
-    <section id="educacion"><h2>Educacion - Cursos</h2></section>
-    <section id="experiencia"><h2>Experiencia</h2></section>
-    <section id="proyectos"><h2>Proyectos</h2></section>
-    <section id="habilidades"><h2>Habilidades</h2></section>
-    <section id="intereses"><h2>Intereses</h2></section>
+    <section id="Educacion"><h2>Educacion - Cursos</h2>
+    <Educacion />
+  </section>
+    <section id="Experiencia"><h2>Experiencia</h2></section>
+    <section id="Proyectos"><h2>Proyectos</h2></section>
+    <section id="Habilidades"><h2>Habilidades</h2></section>
+    <section id="Intereses"><h2>Intereses</h2></section>
   </main>
 </template>
 
