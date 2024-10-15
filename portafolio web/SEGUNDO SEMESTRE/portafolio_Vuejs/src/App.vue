@@ -1,8 +1,9 @@
 <script setup>
-import NavBar from './components/navBar.vue';
-import DatosPersonales from './components/datosPersonales.vue';
+import NavBar from './components/NavBar.vue';
+import DatosPersonales from './components/DatosPersonales.vue';
 import Educacion from './components/EducacionComponente.vue';
 import ExperienciaComponente from './components/ExperienciaComponente.vue';
+import ProyectosComponente from './components/ProyectosComponente.vue';
 
 </script>
 
@@ -20,7 +21,9 @@ import ExperienciaComponente from './components/ExperienciaComponente.vue';
     <section id="Experiencia"><h2>Experiencia</h2>
     <ExperienciaComponente/>
     </section>
-    <section id="Proyectos"><h2>Proyectos</h2></section>
+    <section id="Proyectos"><h2>Proyectos</h2>
+    <ProyectosComponente/>
+    </section>
     <section id="Habilidades"><h2>Habilidades</h2></section>
     <section id="Intereses"><h2>Intereses</h2></section>
   </main>
