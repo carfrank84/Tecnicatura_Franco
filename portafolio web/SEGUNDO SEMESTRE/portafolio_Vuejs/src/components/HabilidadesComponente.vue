@@ -149,7 +149,7 @@
 margin: 0;
   font-size: 1rem; /* Aumenta el tamaño de la fuente */
   font-weight: 200; /* Cambia el peso de la fuente */
-  color: #fcfafa; /* Cambia el color del texto */
+  color: #f1f0f4; /* Cambia el color del texto */
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); /* Añade una sombra sutil */
   }
   @keyframes zoomIn {
@@ -165,7 +165,7 @@ margin: 0;
   h2 {
   font-size: 3rem; /* Ajusta el tamaño de la fuente */
   font-weight: bold; /* Peso de la fuente */
-  color: #f8f3f3; /* Cambia el color del texto */
+  color: #f7f6f2; /* Cambia el color del texto */
   text-align: center; /* Centrar el texto */
   margin-bottom: 1rem; /* Espacio debajo del título */
   transition: transform 0.9s ease; /* Transición para la animación */
