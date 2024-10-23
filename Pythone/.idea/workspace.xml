@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdbbbf49-02e3-4068-b258-b662352fcdd2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Leccion 9/Rectangulo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion 9/Color.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion 9/Color.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion 9/Cuadrado.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion 9/Cuadrado.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion 9/FiguraGeometrica.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion 9/FiguraGeometrica.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion 9/test_figura_geometrica.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion 9/test_figura_geometrica.py" afterDir="false" />
-    </list>
+    <list default="true" id="bdbbbf49-02e3-4068-b258-b662352fcdd2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
