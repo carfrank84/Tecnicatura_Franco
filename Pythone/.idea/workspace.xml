@@ -43,39 +43,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Aritmetica.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ClientePersona.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Cubo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ejercicio01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ejercicio02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ejercicio03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ejercicio04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ejercicio05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EjercicioCiclos3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EjercicioColecciones1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EjercicioColecciones2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EjercicioFunciones03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EjercicioFunciones04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.EjercicioFunciones05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Ejercicio_tupla_lista.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Persona (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Persona.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Persona2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PruebaPersona2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Rectangulo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Vehiculo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_figura_geometrica.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USUARIO/Desktop/tup2024/Tecnicatura_F/Tecnicatura_Franco/Pythone&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Aritmetica.executor": "Run",
+    "Python.ClientePersona.executor": "Run",
+    "Python.Cubo.executor": "Run",
+    "Python.Ejercicio01.executor": "Run",
+    "Python.Ejercicio02.executor": "Run",
+    "Python.Ejercicio03.executor": "Run",
+    "Python.Ejercicio04.executor": "Run",
+    "Python.Ejercicio05.executor": "Run",
+    "Python.EjercicioCiclos3.executor": "Run",
+    "Python.EjercicioColecciones1.executor": "Run",
+    "Python.EjercicioColecciones2.executor": "Run",
+    "Python.EjercicioFunciones03.executor": "Run",
+    "Python.EjercicioFunciones04.executor": "Run",
+    "Python.EjercicioFunciones05.executor": "Run",
+    "Python.Ejercicio_tupla_lista.executor": "Run",
+    "Python.Persona (1).executor": "Run",
+    "Python.Persona.executor": "Run",
+    "Python.Persona2.executor": "Run",
+    "Python.PruebaPersona2.executor": "Run",
+    "Python.Rectangulo.executor": "Run",
+    "Python.Vehiculo.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test_figura_geometrica.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/USUARIO/Desktop/tup2024/K.O.T.A/Tecnicatura/Pythone",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USUARIO\Desktop\tup2024\GoldenBytes\Tecnicatura\Pythone\Leccion 4\pythonProject" />
