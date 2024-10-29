@@ -48,38 +48,61 @@
   </template>
   
   <script>
+  import JavaScript from '../assets/js.svg';
+  import Python from '../assets/python.svg';
+  import HTMLCSS from '../assets/html-css.svg';
+  import Java from '../assets/java.svg';
+  import SQL from '../assets/sql.svg';
+  import React from '../assets/react.svg';
+  import Vue from '../assets/vue.svg';
+  import Node from '../assets/node.svg';
+  import Django from '../assets/django.svg';
+  import Bootstrap from '../assets/bootstrap.svg';
+  import Git from '../assets/git.svg';
+  import Docker from '../assets/docker.svg';
+  import Cypress from '../assets/cypress.svg';
+  import Figma from '../assets/figma.svg';
+  import VSCode from '../assets/visual.svg';
+  import MongoDB from '../assets/mongo.svg';
+  import MySQL from '../assets/mysql.svg';
+  import PostgreSQL from '../assets/postgres.svg';
+  import Espanol from '../assets/arg.svg';
+  import Inglés from '../assets/eeuu.svg';
+  import Japones from '@/assets/japon2.png'; 
+  
   export default {
     data() {
       return {
         lenguajes: [
-          { nombre: 'JavaScript', nivel: 'Avanzado', logo: 'src/assets/js.svg' },
-          { nombre: 'Python', nivel: 'Intermedio', logo: 'src/assets/python.svg' },
-          { nombre: 'HTML/CSS', nivel: 'Avanzado', logo: 'src/assets/html-css.svg' },
-          { nombre: 'Java', nivel: 'Intermedio', logo: 'src/assets/java.svg' },
-          { nombre: 'SQL', nivel: 'Intermedio', logo: 'src/assets/sql.svg' }
+          { nombre: 'JavaScript', nivel: 'Avanzado', logo: JavaScript },
+          { nombre: 'Python', nivel: 'Intermedio', logo: Python },
+          { nombre: 'HTML/CSS', nivel: 'Avanzado', logo: HTMLCSS },
+          { nombre: 'Java', nivel: 'Intermedio', logo: Java },
+          { nombre: 'SQL', nivel: 'Intermedio', logo: SQL }
         ],
         frameworks: [
-          { nombre: 'React.js', nivel: 'Avanzado', logo: 'src/assets/react.svg' },
-          { nombre: 'Vue.js', nivel: 'Intermedio', logo: 'src/assets/vue.svg' },
-          { nombre: 'Node.js', nivel: 'Avanzado', logo: 'src/assets/node.svg' },
-          { nombre: 'Django', nivel: 'Intermedio', logo: 'src/assets/django.svg' },
-          { nombre: 'Bootstrap', nivel: 'Avanzado', logo: 'src/assets/bootstrap.svg' }
+          { nombre: 'React.js', nivel: 'Avanzado', logo: React },
+          { nombre: 'Vue.js', nivel: 'Intermedio', logo: Vue },
+          { nombre: 'Node.js', nivel: 'Avanzado', logo: Node },
+          { nombre: 'Django', nivel: 'Intermedio', logo: Django },
+          { nombre: 'Bootstrap', nivel: 'Avanzado', logo: Bootstrap }
         ],
         herramientas: [
-          { nombre: 'Git', nivel: 'Avanzado', logo: 'src/assets/git.svg' },
-          { nombre: 'Docker', nivel: 'Avanzado', logo: 'src/assets/docker.svg' },
-          { nombre: 'Cypress', nivel: 'Intermedio', logo: 'src/assets/cypress.svg' },
-          { nombre: 'Figma', nivel: 'Intermedio', logo: 'src/assets/figma.svg' },
-          { nombre: 'VSCode', nivel: 'Avanzado', logo: 'src/assets/visual.svg' }
+          { nombre: 'Git', nivel: 'Avanzado', logo: Git },
+          { nombre: 'Docker', nivel: 'Avanzado', logo: Docker },
+          { nombre: 'Cypress', nivel: 'Intermedio', logo: Cypress },
+          { nombre: 'Figma', nivel: 'Intermedio', logo: Figma },
+          { nombre: 'VSCode', nivel: 'Avanzado', logo: VSCode }
         ],
         basesDatos: [
-          { nombre: 'MongoDB', nivel: 'Avanzado', logo: 'src/assets/mongo.svg' },
-          { nombre: 'MySQL', nivel: 'Intermedio', logo: 'src/assets/mysql.svg' },
-          { nombre: 'PostgreSQL', nivel: 'Intermedio', logo: 'src/assets/postgres.svg' }
+          { nombre: 'MongoDB', nivel: 'Avanzado', logo: MongoDB },
+          { nombre: 'MySQL', nivel: 'Intermedio', logo: MySQL },
+          { nombre: 'PostgreSQL', nivel: 'Intermedio', logo: PostgreSQL }
         ],
         idiomas: [
-          { nombre: 'Español', nivel: 'Nativo', logo: 'src/assets/arg.svg' },
-          { nombre: 'Inglés', nivel: 'Avanzado (C1)', logo: 'src/assets/eeuu.svg' }
+          { nombre: 'Español', nivel: 'Nativo', logo: Espanol },
+          { nombre: 'Inglés', nivel: 'Avanzado (C1)', logo: Inglés },
+          { nombre: 'Japones', nivel: 'Avanzado (C1)', logo:Japones }
         ]
       };
     }
@@ -87,92 +110,94 @@
   </script>
   
   <style scoped>
-  .habilidades {
-    display: inline-block;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  section {
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background-size: cover;
-    background-position: center;
-    border-radius: 12px;
-  }
-  
-  .lenguajes {
-    background-image: url('src/assets/codigo1.jpg');
-  }
-  
-  .frameworks {
-    background-image: url('src/assets/frame.jpg');
-  }
-  
-  .herramientas {
-    background-image: url('src/assets/herramientas.jpg');
-  }
-  
-  .basesDatos {
-    background-image: url('src/assets/basedatos.jpeg');
-  }
-  
-  .idiomas {
-    background-image: url('src/assets/mundo.jpg');
-  }
-  
-  .habilidad {
-    display: inline-flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 0.2rem;
-    border: 1px solid #c91515;
-    border-radius: 12px;
-    box-shadow: 0 8px 12px rgba(12, 12, 190, 0.658);
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    margin-bottom: 1rem;
-    margin-right: 2rem;
-    background-color: rgb(176, 5, 59);
-  }
-  
-  .habilidad:hover {
-    transform: scale(1.1);
-    opacity: 2;
-  }
-  
-  .logo {
-    width: 40px;
-    height: 40px;
-  }
-  
-  p {
-margin: 0;
-  font-size: 1rem; /* Aumenta el tamaño de la fuente */
-  font-weight: 200; /* Cambia el peso de la fuente */
-  color: #f1f0f4; /* Cambia el color del texto */
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); /* Añade una sombra sutil */
-  }
-  @keyframes zoomIn {
+.habilidades {
+  display: inline-block;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.lenguajes {
+  background-image: url('@/assets/codigo1.jpg');
+}
+
+.frameworks {
+  background-image: url('@/assets/frame.jpg');
+}
+
+.herramientas {
+  background-image: url('@/assets/herramientas.jpg');
+}
+
+.basesDatos {
+  background-image: url('@/assets/basedatos.jpeg');
+}
+
+.idiomas {
+  background-image: url('@/assets/mundo.jpg');
+}
+
+.habilidad {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.2rem;
+  border: 1px solid #c91515;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px rgba(12, 12, 190, 0.658);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  background-color: rgb(176, 5, 59);
+}
+
+.habilidad:hover {
+  transform: scale(1.1);
+  opacity: 2;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #f1f0f4;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes zoomIn {
   0% {
-    transform: scale(0.8); /* Inicia más pequeño */
-    opacity: 0; /* Comienza invisible */
+    transform: scale(0.8);
+    opacity: 0;
   }
   100% {
-    transform: scale(1); /* Termina al tamaño normal */
-    opacity: 1; /* Termina visible */
+    transform: scale(1);
+    opacity: 1;
   }
 }
-  h2 {
-  font-size: 3rem; /* Ajusta el tamaño de la fuente */
-  font-weight: bold; /* Peso de la fuente */
-  color: #f7f6f2; /* Cambia el color del texto */
-  text-align: center; /* Centrar el texto */
-  margin-bottom: 1rem; /* Espacio debajo del título */
-  transition: transform 0.9s ease; /* Transición para la animación */
-  animation: zoomIn 3s ease; /* Aplica la animación */
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f7f6f2;
+  text-align: center;
+  margin-bottom: 1rem;
+  transition: transform 0.9s ease;
+  animation: zoomIn 3s ease;
 }
+
 h2:hover {
-  transform: scale(1.1); /* Aumentar el tamaño al pasar el cursor */
+  transform: scale(1.1);
 }
-  </style>
-  
+</style>

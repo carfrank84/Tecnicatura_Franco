@@ -13,10 +13,10 @@ const fechaColor = ref([
 
 // Definición de los datos de educación
 const educacion = ref([
-  { fecha: '2024', title: 'Especialización en Inteligencia Artificial', descripcion: 'Golden Bytes se especializó en la creación y manejo de modelos de IA para diversos sectores, mejorando procesos y generando insights valiosos.' },
-  { fecha: '2023', title: 'Desarrollo de Juegos', descripcion: 'En Golden Bytes, diseñamos y desarrollamos videojuegos innovadores y atractivos, utilizando tecnologías como Unity y Unreal Engine.' },
+  { fecha: '2024', title: 'Especialización en Inteligencia Artificial', descripcion: 'K.O.T.A se especializó en la creación y manejo de modelos de IA para diversos sectores, mejorando procesos y generando insights valiosos.' },
+  { fecha: '2023', title: 'Desarrollo de Juegos', descripcion: 'En el equipo K.O.T.A, diseñamos y desarrollamos videojuegos innovadores y atractivos, utilizando tecnologías como Unity y Unreal Engine.' },
   { fecha: '2022', title: 'Desarrollo de Páginas Web', descripcion: 'Creamos sitios web dinámicos y responsivos, optimizados para SEO y con una experiencia de usuario impecable.' },
-  { fecha: '2021', title: 'Desarrollo de Aplicaciones Móviles', descripcion: 'En Golden Bytes, desarrollamos aplicaciones móviles intuitivas y funcionales para iOS y Android, utilizando frameworks como React Native y Flutter.' },
+  { fecha: '2021', title: 'Desarrollo de Aplicaciones Móviles', descripcion: 'Desarrollamos aplicaciones móviles intuitivas y funcionales para iOS y Android, utilizando frameworks como React Native y Flutter.' },
   { fecha: '2020', title: 'Fundación de K.O.T.A', descripcion: 'Nos formamos como equipo con una misión clara: innovar y liderar en el mundo del desarrollo tecnológico.' },
 ]);
 </script>

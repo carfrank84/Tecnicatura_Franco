@@ -1,5 +1,12 @@
 <script setup>
 import { ref } from 'vue';
+import SP from '/src/assets/SP.svg'
+import NJ from '/src/assets/NJ.svg'
+import DV from '/src/assets/DV.svg'
+import AI from '/src/assets/AI.svg'
+import jenkins from '/src/assets/jenkins.svg'
+
+
 
 // Títulos y fechas de la experiencia
 const titulo = 'Desarrollador Full Stack en Knigths of the Algoritmo';
@@ -7,14 +14,13 @@ const fecha = 'Desde Enero 2022 / Julio 2024';
 
 // Definición de las experiencias laborales
 const experiencias = ref([
-    { id: 1, src: '/src/assets/SP.svg', parrafo: 'Lideré un equipo de desarrollo en la creación de aplicaciones móviles que mejoraron la retención de usuarios en un 30% durante el primer año.' },
-    { id: 2, src: '/src/assets/NJ.svg', parrafo: 'Desarrollé soluciones de software utilizando tecnologías como Vue.js y Node.js, logrando aumentar la eficiencia del proceso de desarrollo en un 40%.' },
-    { id: 3, src: '/src/assets/DV.svg', parrafo: 'Implementé prácticas de DevOps que optimizaron el ciclo de vida del desarrollo, reduciendo el tiempo de entrega de proyectos en un 25%.' },
-    { id: 4, src: '/src/assets/AI.svg', parrafo: 'Colaboré con equipos de diseño para crear interfaces de usuario intuitivas, resultando en una mejora del 20% en la satisfacción del cliente.' },
-    { id: 5, src: '/src/assets/jenkins.svg', parrafo: 'Automatizé pruebas y despliegues continuos con herramientas como Jenkins, aumentando la calidad del software y reduciendo los errores en producción.' },
+    { id: 1, src: SP, parrafo: 'Lideramos un equipo de desarrollo en la creación de aplicaciones móviles que mejoraron la retención de usuarios en un 30% durante el primer año.' },
+    { id: 2, src: NJ, parrafo: 'Desarrollamos soluciones de software utilizando tecnologías como Vue.js y Node.js, logrando aumentar la eficiencia del proceso de desarrollo en un 40%.' },
+    { id: 3, src: DV, parrafo: 'Implementamos prácticas de DevOps que optimizaron el ciclo de vida del desarrollo, reduciendo el tiempo de entrega de proyectos en un 25%.' },
+    { id: 4, src: AI, parrafo: 'Colaboramos con equipos de diseño para crear interfaces de usuario intuitivas, resultando en una mejora del 20% en la satisfacción del cliente.' },
+    { id: 5, src: jenkins, parrafo: 'Automatizamos pruebas y despliegues continuos con herramientas como Jenkins, aumentando la calidad del software y reduciendo los errores en producción.' },
 ]);
 </script>
-
 <template>
     <div class="card">
         <h3 class="titulo">{{ titulo.toLocaleUpperCase() }}</h3>

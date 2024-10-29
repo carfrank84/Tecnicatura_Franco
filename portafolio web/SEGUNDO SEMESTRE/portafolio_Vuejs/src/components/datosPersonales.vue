@@ -1,13 +1,19 @@
 <script setup>
+
+import linkedin from '/src/assets/linkedin_icon.svg'
+import Instagram from '/src/assets/instagram_icon.svg'
+import github from '/src/assets/github_icon.svg'
+import Curriculum from '/src/assets/cv_resume_icon.svg'
+
 const title = 'Knigths of the Algoritmo (K.O.T.A)';
-const descripcion = 'Equipo de estudiantes de la Tecnicatura Universitaria en Programación de la UTN-San Rafael';
+const descripción = 'Equipo de estudiantes de la Tecnicatura Universitaria en Programación de la UTN-San Rafael';
 const residencia = 'San Rafael, Mendoza, Argentina';
 const presentacion = 'Hola bienvenidos al portafolio web del equipo K.O.T.A, integrado por los alumnos : Maxi Montenegro - Franco Poblete.-';
 const redesSociales = [
-  { id: 1, name: 'linkedin', src: '/src/assets/linkedin_icon.svg', url: 'https://www.linkedin.com/in/jose-perez/' },
-  { id: 2, name: 'Instagram', src: '/src/assets/instagram_icon.svg', url: 'https://www.instagram.com/joseperez/' },
-  { id: 3, name: 'github', src: '/src/assets/github_icon.svg', url: '' },
-  { id: 4, name: 'curriculum', src: '/src/assets/cv_resume_icon.svg', url: '' },
+  { id: 1, name: 'linkedin', src:linkedin, url: 'https://www.linkedin.com/in/jose-perez/' },
+  { id: 2, name: 'Instagram', src: Instagram, url: 'https://www.instagram.com/joseperez/' },
+  { id: 3, name: 'github', src: github, url: '' },
+  { id: 4, name: 'Curriculum', src: Curriculum, url: '' },
 ];
 const telefono = '+54 9 2604-661061';
 </script>
@@ -16,7 +22,7 @@ const telefono = '+54 9 2604-661061';
 <section class="datos-personales">
     <div class="card">
       <h1>{{ title }}</h1>
-      <h2>{{ descripcion }}</h2>
+      <h2>{{ descripción }}</h2>
       <p>{{ presentacion }}</p>
       <ul class="container-lista">
         <li v-for="red in redesSociales" :key="red.id">
