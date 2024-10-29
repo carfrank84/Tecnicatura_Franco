@@ -32,7 +32,7 @@
 // Importa las imágenes de los proyectos
 import websiteImage from '@/assets/web.jpg';
 import gameImage from '@/assets/juego.jpg';
-import appImage from '@/assets/app.jpg';
+import appImage from '@/assets/app2.png';
 
 // Importa la imagen de fondo
 import backgroundProjects from '@/assets/fondo.jpg';
@@ -57,7 +57,7 @@ export default {
         },
         {
           title: 'Aplicación Móvil',
-          description: 'Una aplicación móvil para gestionar un E-commerce.',
+          description: 'Una aplicación móvil para gestiones bancarias.',
           image: appImage,
           isHovered: false
         }

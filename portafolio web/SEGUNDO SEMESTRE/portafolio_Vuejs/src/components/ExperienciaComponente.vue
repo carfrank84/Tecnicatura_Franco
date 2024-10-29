@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 
 // Títulos y fechas de la experiencia
-const titulo = 'Desarrollador Full Stack en Golden Bytes';
+const titulo = 'Desarrollador Full Stack en Knigths of the Algoritmo';
 const fecha = 'Desde Enero 2022 / Julio 2024';
 
 // Definición de las experiencias laborales
@@ -33,13 +33,14 @@ const experiencias = ref([
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    background-color: rgb(28, 41, 52);
+    background-color: rgba(6, 108, 243, 0.335);
     border-radius: 15px;
 }
 
 .titulo {
     font-size: 1.5rem;
-    color: coral;
+    color: rgb(247, 40, 40);
+    
 }
 
 .fecha {

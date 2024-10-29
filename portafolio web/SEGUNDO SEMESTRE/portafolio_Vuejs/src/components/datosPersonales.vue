@@ -1,8 +1,8 @@
 <script setup>
-const title = 'Golden Bytes';
-const descripcion = 'Equipo de estudiantes de la Tecnicatura Universitaria en Programacion de la UTN-San Rafael';
+const title = 'Knigths of the Algoritmo (K.O.T.A)';
+const descripcion = 'Equipo de estudiantes de la Tecnicatura Universitaria en Programación de la UTN-San Rafael';
 const residencia = 'San Rafael, Mendoza, Argentina';
-const presentacion = 'Hola bienvenidos al portafolio web del equipo Golden Bytes, integrado por los alumnos : Ezequiel Quiroz - Maxi Montenegro - Irene Machuca - Leo Gomez - Valentin Felipe - Franco Poblete - Felipe Landi.';
+const presentacion = 'Hola bienvenidos al portafolio web del equipo K.O.T.A, integrado por los alumnos : Maxi Montenegro - Franco Poblete.-';
 const redesSociales = [
   { id: 1, name: 'linkedin', src: '/src/assets/linkedin_icon.svg', url: 'https://www.linkedin.com/in/jose-perez/' },
   { id: 2, name: 'Instagram', src: '/src/assets/instagram_icon.svg', url: 'https://www.instagram.com/joseperez/' },
@@ -23,7 +23,7 @@ const telefono = '+54 9 2604-661061';
           <a :href="red.url"><img class="icon-redsocial" :src="red.src" width="35rem" :alt="red.name"></a>
         </li>
       </ul>
-      <h3>☎ Nuestro telefono: {{ telefono }}</h3>
+      <h3>☎ Nuestro Teléfono: {{ telefono }}</h3>
       <h4>{{ residencia }}</h4>
     </div>
   </section>
@@ -41,11 +41,27 @@ p {
 }
 
 .card {
-  background-color: rgb(113, 104, 12);
+  position: relative; /* Necesario para que el pseudo-elemento ::before se posicione dentro de .card */
+  border-radius: 10px; /* Borde redondeado de la tarjeta */
+  padding: 20px; /* Espacio interno de la tarjeta */
+  margin: 10px; /* Espacio externo */
+  text-align: center; /* Alinea el texto al centro */
+  overflow: hidden; /* Asegura que el pseudo-elemento ::before no se salga de la tarjeta */
+  color: white; /* Cambia el color del texto a blanco para mayor legibilidad */
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/src/assets/FondoAzul.jpg'); /* Ruta de la imagen */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9; /* Ajusta la opacidad según desees */
+  z-index: -1;
   border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
 }
 
 .container-lista {

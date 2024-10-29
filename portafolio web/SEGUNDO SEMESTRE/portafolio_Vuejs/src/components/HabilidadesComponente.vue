@@ -102,7 +102,7 @@
   }
   
   .lenguajes {
-    background-image: url('src/assets/codigo.jpg');
+    background-image: url('src/assets/codigo1.jpg');
   }
   
   .frameworks {

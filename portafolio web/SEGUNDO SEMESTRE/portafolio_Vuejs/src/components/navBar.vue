@@ -17,8 +17,8 @@ import { ref } from 'vue';
 const navegacion = ref([
   { id: 1, nombre: 'Educacion', enlace: '#Educacion' },
   { id: 2, nombre: 'Experiencia', enlace: '#Experiencia' },
-  { id: 3, nombre: 'Proyectos', enlace: '#proyectos' },
-  { id: 4, nombre: 'Habilidades', enlace: '#habilidades' },
+  { id: 3, nombre: 'Proyectos', enlace: '#Proyectos' },
+  { id: 4, nombre: 'Habilidades', enlace: '#Habilidades' },
   { id: 5, nombre: 'Intereses', enlace: '#intereses' },
 ]);
 </script>
@@ -26,9 +26,9 @@ const navegacion = ref([
 <style scoped>
 /* Estilos para la barra de navegación */
 .navbar {
-  background-color: var(--vt-c-indigo); /* Color de fondo de la barra */
+  background-image: url('/src/assets/FondoAzul.jpg'); /* Color de fondo de la barra */
   color: #fff; /* Color del texto */
-  padding: 1rem 1rem; /* Espaciado interno */
+  padding: 1rem 18rem; /* Espaciado interno */
   align-items: center; /* Alineación de los elementos */
 }
 
@@ -36,7 +36,7 @@ const navegacion = ref([
 .navbar-item {
   color: #fff; /* Color del texto de los enlaces */
   text-decoration: none; /* Elimina el subrayado de los enlaces */
-  margin-right: 1rem; /* Espaciado a la derecha */
+  margin-right: 20rem; /* Espaciado a la derecha */
 }
 
 /* Contenedor de los elementos de la barra de navegación */
@@ -52,17 +52,17 @@ const navegacion = ref([
 
 /* Estilos generales para los enlaces */
 a {
-  border: 1px solid; /* Borde de los enlaces */
-  border-color: hsla(60, 10%, 96%, 0.886); /* Color del borde */
+  border: 2px solid; /* Borde de los enlaces */
+  border-color: hsl(247, 93%, 41%); /* Color del borde */
   border-radius: 5px; /* Bordes redondeados */
   text-decoration: none; /* Elimina el subrayado de los enlaces */
   transition: 0.4s; /* Transición suave para cambios de estilo */
-  padding: 7px; /* Espaciado interno */
+  padding: 9px; /* Espaciado interno */
 }
 
 /* Efecto hover para los enlaces */
 a:hover {
-  background-color: hsla(103, 76%, 23%, 0.616); /* Cambia el color de fondo al pasar el mouse */
+  background-color: hsla(0, 90%, 39%, 0.728); /* Cambia el color de fondo al pasar el mouse */
 }
 
 /* Estilos para pantallas más pequeñas */

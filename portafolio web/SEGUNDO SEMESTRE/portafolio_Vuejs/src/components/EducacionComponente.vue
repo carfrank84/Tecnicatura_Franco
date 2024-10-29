@@ -4,11 +4,11 @@ import {ref} from 'vue';
 
 // Definición de los colores de las fechas
 const fechaColor = ref([
-  { color: '#FFB3BA' }, // Color pastel rosa
-  { color: '#FFDFBA' }, // Color pastel naranja
-  { color: '#FFFFBA' }, // Color pastel amarillo
-  { color: '#BAFFC9' }, // Color pastel verde
-  { color: '#BAE1FF' }, // Color pastel azul
+  { color: '#FF2233' }, // Color rojo pastel
+  { color: '#FF2233' }, 
+  { color: '#FF2233' }, 
+  { color: '#FF2233' }, 
+  { color: '#FF2233' }, 
 ]);
 
 // Definición de los datos de educación
@@ -17,7 +17,7 @@ const educacion = ref([
   { fecha: '2023', title: 'Desarrollo de Juegos', descripcion: 'En Golden Bytes, diseñamos y desarrollamos videojuegos innovadores y atractivos, utilizando tecnologías como Unity y Unreal Engine.' },
   { fecha: '2022', title: 'Desarrollo de Páginas Web', descripcion: 'Creamos sitios web dinámicos y responsivos, optimizados para SEO y con una experiencia de usuario impecable.' },
   { fecha: '2021', title: 'Desarrollo de Aplicaciones Móviles', descripcion: 'En Golden Bytes, desarrollamos aplicaciones móviles intuitivas y funcionales para iOS y Android, utilizando frameworks como React Native y Flutter.' },
-  { fecha: '2020', title: 'Fundación de Golden Bytes', descripcion: 'Nos formamos como equipo con una misión clara: innovar y liderar en el mundo del desarrollo tecnológico.' },
+  { fecha: '2020', title: 'Fundación de K.O.T.A', descripcion: 'Nos formamos como equipo con una misión clara: innovar y liderar en el mundo del desarrollo tecnológico.' },
 ]);
 </script>
 
@@ -160,10 +160,10 @@ ul li .title::before, ul li .descripcion::before {
   position: absolute; /* Posicionamiento absoluto */
   width: 90%; /* Ancho */
   height: 0.5rem; /* Altura */
-  background: rgba(175, 30, 30, 0.5); /* Color de fondo */
+  background: rgba(85, 1, 254, 0.852); /* Color de fondo */
   left: 50%; /* Alineación central */
   border-radius: 50%; /* Bordes redondeados */
-  filter: blur(4px); /* Difuminado */
+  filter: blur(3px); /* Difuminado */
   transform: translate(-50%, 50%); /* Posicionamiento */
 }
 
